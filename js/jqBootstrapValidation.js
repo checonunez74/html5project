@@ -834,7 +834,7 @@
 				message: "Must be a negative number<!-- data-validator-negativenumber-message to override -->"
 			},
 			required: {
-				name: "Required",
+        name: "Required",
 				type: "required",
 				message: "This is required<!-- data-validator-required-message to override -->"
 			},

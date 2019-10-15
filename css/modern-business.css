@@ -5,23 +5,27 @@
  */
 body {
   padding-top: 56px;
-  background-color: rgb(55, 69, 76)
+  background-color: rgb(255, 255, 255)
 }
 
 .help-block {
-  color:yellow !important;
+  color:red !important;
 }
 
 video {
   object-fit: fill;
 }
 
-#bottom-text {
-  color: white;
+#color-text {
+  color:black;
+}
+
+#center-text{
+  text-align: center;
 }
 
 #error-text {
-  color: yellow;
+  color: red;
 }
 
 .carousel-item {
