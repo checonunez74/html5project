@@ -6,7 +6,7 @@ function includeHTML() {
   for (i = 0; i < z.length; i++) {
     elmnt = z[i];
     /*search for elements with a certain atrribute:*/
-    file = elmnt.getAttribute("nav.html");
+    file = elmnt.getAttribute("nav-placeholder");
     if (file) {
       /* Make an HTTP request using the attribute value as the file name: */
       xhttp = new XMLHttpRequest();
@@ -15,7 +15,7 @@ function includeHTML() {
           if (this.status == 200) {elmnt.innerHTML = this.responseText;}
           if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
           /* Remove the attribute, and call this function once more: */
-          elmnt.removeAttribute("nav.html");
+          elmnt.removeAttribute("nav-placeholder");
           includeHTML();
         }
       }
