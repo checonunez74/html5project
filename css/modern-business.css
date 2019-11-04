@@ -50,3 +50,12 @@ h3 {
   color: black;
 }
 
+.logo-nav {
+  display: block;
+  width: 95px;
+}
+
+.logo-nav img {
+  display: block;
+  width: 100%;
+}
